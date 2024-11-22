@@ -16,5 +16,16 @@ namespace WorkTest
 		{
 			InitializeComponent();
 		}
+
+		private void pcaButton1_Click(object sender, EventArgs e)
+		{
+			string message = this.pcaTextBox1.Text;
+			if (String.IsNullOrEmpty(message))
+			{
+				message = "ボタンを押しました";
+			}
+
+			MessageBox.Show(message);
+		}
 	}
 }
