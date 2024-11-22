@@ -39,6 +39,7 @@
 			this.pcaButton1.TabIndex = 0;
 			this.pcaButton1.Text = "ボタン1";
 			this.pcaButton1.UseVisualStyleBackColor = true;
+			this.pcaButton1.Click += new System.EventHandler(this.pcaButton1_Click);
 			// 
 			// Form1
 			// 
