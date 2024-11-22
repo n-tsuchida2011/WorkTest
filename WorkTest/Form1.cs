@@ -16,5 +16,10 @@ namespace WorkTest
 		{
 			InitializeComponent();
 		}
+
+		private void pcaButton1_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("ボタンを押しました");
+		}
 	}
 }
