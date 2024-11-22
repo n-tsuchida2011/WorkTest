@@ -30,6 +30,7 @@
 		{
 			this.pcaButton1 = new PCA.Controls.PcaButton();
 			this.pcaTextBox1 = new PCA.Controls.PcaTextBox();
+			this.pcaGuideLabel1 = new PCA.Controls.PcaGuideLabel();
 			this.pcaCheckBox1 = new PCA.Controls.PcaCheckBox();
 			this.SuspendLayout();
 			// 
@@ -51,6 +52,18 @@
 			this.pcaTextBox1.Size = new System.Drawing.Size(120, 20);
 			this.pcaTextBox1.TabIndex = 1;
 			// 
+			// pcaGuideLabel1
+			// 
+			this.pcaGuideLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(247)))), ((int)(((byte)(251)))));
+			this.pcaGuideLabel1.ForeColor = System.Drawing.Color.Black;
+			this.pcaGuideLabel1.Location = new System.Drawing.Point(74, 155);
+			this.pcaGuideLabel1.MaxLine = 2;
+			this.pcaGuideLabel1.MaxTextLength = 30;
+			this.pcaGuideLabel1.Name = "pcaGuideLabel1";
+			this.pcaGuideLabel1.Size = new System.Drawing.Size(206, 32);
+			this.pcaGuideLabel1.TabIndex = 2;
+			this.pcaGuideLabel1.Text = "テキストボックスに入力した文字列をメッセージ表示することができます。";
+			// 
 			// pcaCheckBox1
 			// 
 			this.pcaCheckBox1.Location = new System.Drawing.Point(84, 57);
@@ -66,6 +79,7 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(361, 338);
+			this.Controls.Add(this.pcaGuideLabel1);
 			this.Controls.Add(this.pcaCheckBox1);
 			this.Controls.Add(this.pcaTextBox1);
 			this.Controls.Add(this.pcaButton1);
@@ -79,6 +93,7 @@
 
 		private PCA.Controls.PcaButton pcaButton1;
 		private PCA.Controls.PcaTextBox pcaTextBox1;
+		private PCA.Controls.PcaGuideLabel pcaGuideLabel1;
 		private PCA.Controls.PcaCheckBox pcaCheckBox1;
 	}
 }
