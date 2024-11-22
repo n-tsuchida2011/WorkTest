@@ -37,7 +37,7 @@
 			this.pcaButton1.Name = "pcaButton1";
 			this.pcaButton1.Size = new System.Drawing.Size(72, 22);
 			this.pcaButton1.TabIndex = 0;
-			this.pcaButton1.Text = "pcaButton1";
+			this.pcaButton1.Text = "ボタン1";
 			this.pcaButton1.UseVisualStyleBackColor = true;
 			// 
 			// Form1
