@@ -30,6 +30,7 @@
 		{
 			this.pcaButton1 = new PCA.Controls.PcaButton();
 			this.pcaTextBox1 = new PCA.Controls.PcaTextBox();
+			this.pcaCheckBox1 = new PCA.Controls.PcaCheckBox();
 			this.SuspendLayout();
 			// 
 			// pcaButton1
@@ -50,11 +51,22 @@
 			this.pcaTextBox1.Size = new System.Drawing.Size(120, 20);
 			this.pcaTextBox1.TabIndex = 1;
 			// 
+			// pcaCheckBox1
+			// 
+			this.pcaCheckBox1.Location = new System.Drawing.Point(84, 57);
+			this.pcaCheckBox1.MaxTextLength = 3;
+			this.pcaCheckBox1.Name = "pcaCheckBox1";
+			this.pcaCheckBox1.Size = new System.Drawing.Size(18, 20);
+			this.pcaCheckBox1.TabIndex = 2;
+			this.pcaCheckBox1.UseVisualStyleBackColor = true;
+			this.pcaCheckBox1.CheckedChanged += new System.EventHandler(this.pcaCheckBox1_CheckedChanged);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(361, 338);
+			this.Controls.Add(this.pcaCheckBox1);
 			this.Controls.Add(this.pcaTextBox1);
 			this.Controls.Add(this.pcaButton1);
 			this.Name = "Form1";
@@ -67,6 +79,7 @@
 
 		private PCA.Controls.PcaButton pcaButton1;
 		private PCA.Controls.PcaTextBox pcaTextBox1;
+		private PCA.Controls.PcaCheckBox pcaCheckBox1;
 	}
 }
 
