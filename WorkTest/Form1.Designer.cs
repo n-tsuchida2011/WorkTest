@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.pcaButton1 = new PCA.Controls.PcaButton();
+			this.pcaTextBox1 = new PCA.Controls.PcaTextBox();
 			this.SuspendLayout();
 			// 
 			// pcaButton1
@@ -41,11 +42,20 @@
 			this.pcaButton1.UseVisualStyleBackColor = true;
 			this.pcaButton1.Click += new System.EventHandler(this.pcaButton1_Click);
 			// 
+			// pcaTextBox1
+			// 
+			this.pcaTextBox1.CellValue = "";
+			this.pcaTextBox1.Location = new System.Drawing.Point(111, 57);
+			this.pcaTextBox1.Name = "pcaTextBox1";
+			this.pcaTextBox1.Size = new System.Drawing.Size(120, 20);
+			this.pcaTextBox1.TabIndex = 1;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(361, 338);
+			this.Controls.Add(this.pcaTextBox1);
 			this.Controls.Add(this.pcaButton1);
 			this.Name = "Form1";
 			this.Text = "Form1";
@@ -56,6 +66,7 @@
 		#endregion
 
 		private PCA.Controls.PcaButton pcaButton1;
+		private PCA.Controls.PcaTextBox pcaTextBox1;
 	}
 }
 
