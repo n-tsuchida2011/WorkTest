@@ -27,5 +27,10 @@ namespace WorkTest
 
 			MessageBox.Show(message);
 		}
+
+		private void pcaCheckBox1_CheckedChanged(object sender, EventArgs e)
+		{
+			this.pcaTextBox1.Enabled = pcaCheckBox1.Checked;
+		}
 	}
 }
