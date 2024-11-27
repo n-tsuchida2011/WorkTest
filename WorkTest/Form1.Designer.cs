@@ -62,7 +62,7 @@
 			this.pcaGuideLabel1.Name = "pcaGuideLabel1";
 			this.pcaGuideLabel1.Size = new System.Drawing.Size(206, 32);
 			this.pcaGuideLabel1.TabIndex = 2;
-			this.pcaGuideLabel1.Text = "テキストボックスに入力した文字列をメッセージ表示することができます。";
+			this.pcaGuideLabel1.Text = "テキストボックスに入力した文字列を\nメッセージ表示することができます。";
 			// 
 			// pcaCheckBox1
 			// 
